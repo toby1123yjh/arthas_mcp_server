@@ -2,7 +2,7 @@
 
 [![English](https://img.shields.io/badge/lang-English-red.svg)](README.md) [![中文](https://img.shields.io/badge/lang-中文-blue.svg)](README.zh-CN.md)
 
-面向 LLM 的 Java 智能诊断 MCP 服务器
+Java 智能诊断 MCP 服务器
 
 ## 项目概述
 
