@@ -1,0 +1,74 @@
+# Python-generated files
+__pycache__/
+*.py[oc]
+build/
+dist/
+wheels/
+*.egg-info/
+*.whl
+
+# Virtual environments
+.venv/
+.env
+.python-version
+venv/
+env/
+
+# Testing and coverage
+.pytest_cache/
+.coverage
+.coverage.*
+coverage.xml
+*.cover
+.hypothesis/
+.tox/
+
+# Editor directories and files
+.idea/
+.vscode/
+.cursor/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
+*~
+
+# OS specific
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Logs
+logs/
+*.log
+*.log.*
+arthas_mcp.log
+arthas_mcp_error.log
+arthas_mcp_errors.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+dev-debug.log
+
+# Dependencies
+node_modules/
+
+# Configuration files
+.mcp.json
+CLAUDE.md
+
+# Task files
+tasks.json
+tasks/
+
+# Temporary files
+*.tmp
+*.temp
+.cache/
+temp/
+tmp/
