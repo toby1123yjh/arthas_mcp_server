@@ -1,6 +1,6 @@
 # Arthas MCP Server
 
-[![中文](https://img.shields.io/badge/lang-中文-blue.svg)](README.md) [![English](https://img.shields.io/badge/lang-English-red.svg)](README.en.md)
+[![中文](https://img.shields.io/badge/lang-中文-blue.svg)](README.zh-CN.md) [![English](https://img.shields.io/badge/lang-English-red.svg)](README.en.md)
 
 LLM-oriented Java diagnostics MCP server
 
