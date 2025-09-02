@@ -15,6 +15,8 @@ Arthas MCP Server 是基于 [Model Context Protocol (MCP)](https://modelcontextp
 - 📊 **性能分析**: CPU 使用率、方法调用链、性能瓶颈识别
 - 🔧 **动态修改**: 支持运行时类和方法的动态修改
 - 🤖 **LLM 集成**: 专为 AI 助手优化的自然语言交互界面
+- 示例
+![示例图片](./usecase/case1.jpg)
 
 ## 快速开始
 

@@ -14,8 +14,8 @@ Arthas MCP Server is an MCP-based diagnostic toolkit for Java applications, desi
 - Real-time monitoring: JVM, threads, memory
 - Performance analysis: CPU usage, call tracing, bottlenecks
 - Runtime operations: dynamic class/method tools
-
-![示例图片](./usecase/case1.png)
+- exmaple image
+![示例图片](./usecase/case1.jpg)
 
 ## Quick Start
 
