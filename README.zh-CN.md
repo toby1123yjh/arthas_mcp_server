@@ -8,21 +8,6 @@ Java 智能诊断 MCP 服务器
 
 Arthas MCP Server 是基于 [Model Context Protocol (MCP)](https://modelcontextprotocol.io) 的智能化 Java 应用诊断工具，专为 LLM 集成设计。它提供了与 [Arthas](https://arthas.aliyun.com/) 的无缝集成，让 AI 助手能够智能地诊断和分析 Java 应用程序。
 
-## 使用示例
-
-### 示例：通过 AI 助手进行性能分析
-
-![使用案例示例](./usecase/case1.jpg)
-
-上图展示了如何通过 AI 助手（如 Claude）以自然语言交互的方式，智能诊断 Java 应用性能问题。只需描述你的问题，AI 助手会自动：
-
-- 连接到 Arthas 服务器
-- 执行适当的诊断命令
-- 分析性能指标
-- 提供可操作的洞察和建议
-
-这消除了手动记忆 Arthas 命令语法和参数的需要。
-
 ## 核心特性
 
 - 🔍 **智能诊断**: 通过 LLM 友好的接口提供 Java 应用性能分析
@@ -30,14 +15,10 @@ Arthas MCP Server 是基于 [Model Context Protocol (MCP)](https://modelcontextp
 - 📊 **性能分析**: CPU 使用率、方法调用链、性能瓶颈识别
 - 🔧 **动态修改**: 支持运行时类和方法的动态修改
 - 🤖 **LLM 集成**: 专为 AI 助手优化的自然语言交互界面
+- 示例
+![示例图片](./usecase/case1.jpg)
 
 ## 快速开始
-
-### 环境要求
-
-- Python 3.13+
-- 运行中的 Java 应用程序
-- Arthas 3.6.7+
 
 ### 安装
 
@@ -74,7 +55,9 @@ python main.py
 
 ## 配置
 
-### 1. 添加到 Cursor，Claude Code
+### 1. 克隆代码
+
+### 2. 添加到 Cursor，Claude Code
 
 在 Cursor 配置文件中添加 MCP 服务器配置：
 
@@ -96,7 +79,7 @@ python main.py
 ```
 
 
-### 2.  启动 Arthas，并配置Arthas远程配置ARTHAS_URL
+### 3.  启动 Arthas，并配置Arthas远程配置ARTHAS_URL
 
 在目标 Java 应用程序中启动 Arthas：
 

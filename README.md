@@ -8,34 +8,17 @@ Java diagnostics MCP server
 
 Arthas MCP Server is an MCP-based diagnostic toolkit for Java applications, designed for LLM integration. It integrates with Alibaba Arthas so AI assistants can analyze and diagnose Java apps.
 
-## Use Cases
-
-### Example: Performance Analysis with AI Assistant
-
-![Use Case Example](./usecase/case1.jpg)
-
-The screenshot demonstrates how to use AI assistants (like Claude) to intelligently diagnose Java application performance issues through natural language interactions. Simply describe your problem, and the AI assistant will automatically:
-
-- Connect to the Arthas server
-- Execute appropriate diagnostic commands
-- Analyze performance metrics
-- Provide actionable insights and recommendations
-
-This eliminates the need to manually remember Arthas command syntax and parameters.
-
 ## Features
 
-- 🔍 **Intelligent diagnostics** via LLM-friendly tools
-- 🚀 **Real-time monitoring**: JVM, threads, memory
-- 📊 **Performance analysis**: CPU usage, call tracing, bottlenecks
-- 🔧 **Runtime operations**: dynamic class/method tools
+- Intelligent diagnostics via LLM-friendly tools
+- Real-time monitoring: JVM, threads, memory
+- Performance analysis: CPU usage, call tracing, bottlenecks
+- Runtime operations: dynamic class/method tools
+- exmaple 
+![示例图片](./usecase/case1.jpg)
 
 ## Quick Start
 
-### Requirements
-- Python 3.13+
-- A running Java application
-- Arthas 3.6.7+
 
 ### Install
 ```bash
