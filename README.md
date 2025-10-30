@@ -1,6 +1,6 @@
 # Arthas MCP Server
 
-[![English](https://img.shields.io/badge/lang-English-red.svg)](README.md) [![中文](https://img.shields.io/badge/lang-中文-blue.svg)](README.zh-CN.md)
+[![中文](https://img.shields.io/badge/lang-中文-blue.svg)](README.zh-CN.md)
 
 Java diagnostics MCP server
 
@@ -8,12 +8,27 @@ Java diagnostics MCP server
 
 Arthas MCP Server is an MCP-based diagnostic toolkit for Java applications, designed for LLM integration. It integrates with Alibaba Arthas so AI assistants can analyze and diagnose Java apps.
 
+## Use Cases
+
+### Example: Performance Analysis with AI Assistant
+
+![Use Case Example](./usecase/case1.jpg)
+
+The screenshot demonstrates how to use AI assistants (like Claude) to intelligently diagnose Java application performance issues through natural language interactions. Simply describe your problem, and the AI assistant will automatically:
+
+- Connect to the Arthas server
+- Execute appropriate diagnostic commands
+- Analyze performance metrics
+- Provide actionable insights and recommendations
+
+This eliminates the need to manually remember Arthas command syntax and parameters.
+
 ## Features
 
-- Intelligent diagnostics via LLM-friendly tools
-- Real-time monitoring: JVM, threads, memory
-- Performance analysis: CPU usage, call tracing, bottlenecks
-- Runtime operations: dynamic class/method tools
+- 🔍 **Intelligent diagnostics** via LLM-friendly tools
+- 🚀 **Real-time monitoring**: JVM, threads, memory
+- 📊 **Performance analysis**: CPU usage, call tracing, bottlenecks
+- 🔧 **Runtime operations**: dynamic class/method tools
 
 ## Quick Start
 
@@ -65,12 +80,8 @@ Windows: `C:\Users\{username}\.cursor\mcp.json`
 
 ### Start Arthas
 
-`ARTHAS_URL`: http://localhost:8563
+There are multiple deployment methods: either attach mode or agent mode. Both approaches ultimately result in listening for HTTP requests (Arthas commands) on port 8563.
 
-```bash
-curl -O https://arthas.aliyun.com/arthas-boot.jar
-java -jar arthas-boot.jar
-```
 
 ## Project Structure
 
